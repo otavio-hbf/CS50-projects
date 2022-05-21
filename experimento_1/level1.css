@@ -21,4 +21,5 @@ body{
 
 #btn:hover{
     background-color: yellow;
+    transition: background 0.3s;
 }
