@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(47, 26, 104);
+}
+
+.title{
+    margin: 20px;
+}
+
+#page-title{
+    text-align: center;
+    color: white;
+}
+
+#subtitle{
+    color: white;
+}
+
+fieldset{
+    position: relative; left: 20%;
+    width: 60%;
+    display:flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: flex-start;
+}
+
+#text-form{
+    margin:10px;
+}
+
+#btn-form{
+    position: relative; left:50%;
+}
+
+#btn-form:hover{
+    transition: 0.3s; background-color: rgb(161, 140, 218);
+    position: relative; left:50%; top:93.5%
+}
